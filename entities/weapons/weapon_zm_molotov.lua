@@ -41,6 +41,9 @@ SWEP.Secondary.Ammo            = "dummy"
 SWEP.Undroppable               = true
 SWEP.CantThrowAmmo             = true
 
+-- it should take 2.5 from click to throwing
+-- also it should only throw when letting go
+
 function SWEP:SetupDataTables()
     self:NetworkVar("Float", 0, "NextIdle")
     self:NetworkVar("Float", 1, "FireTimer")

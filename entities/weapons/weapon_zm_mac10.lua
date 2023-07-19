@@ -30,7 +30,7 @@ SWEP.Primary.DefaultClip       = 30
 SWEP.Primary.MinDamage         = GetConVar("zm_weapon_damage_mac10"):GetInt()
 SWEP.Primary.MaxDamage         = GetConVar("zm_weapon_damage_mac10"):GetInt()
 SWEP.Primary.NumShots          = 1
-SWEP.Primary.Delay             = 0.09
+SWEP.Primary.Delay             = 0.066
 
 SWEP.Primary.Automatic         = true
 SWEP.Primary.Ammo              = "smg1"

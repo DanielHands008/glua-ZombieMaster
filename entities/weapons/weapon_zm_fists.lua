@@ -20,7 +20,7 @@ SWEP.Primary.Reach             = 45
 SWEP.Primary.HitSound          = "Flesh.ImpactHard"
 SWEP.Primary.HitFleshSound     = "Flesh.ImpactHard"
 SWEP.Primary.MissSound         = "Weapon_Fists_ZM.Melee_Hit"
-SWEP.Primary.Delay             = 0.8
+SWEP.Primary.Delay             = 0.65
 
 SWEP.Undroppable               = true
 

@@ -43,7 +43,7 @@ function SWEP:PrimaryAttack()
 
     local trace = util.TraceHull({
         start = owner:EyePos(),
-        endpos = owner:EyePos() + owner:EyeAngles():Forward() * 64,
+        endpos = owner:EyePos() + owner:EyeAngles():Forward() * 75,
         mins = Vector(-8, -8, -8),
         maxs = Vector(8, 8, 8),    
         mask = bit.bor(MASK_SHOT, CONTENTS_GRATE),

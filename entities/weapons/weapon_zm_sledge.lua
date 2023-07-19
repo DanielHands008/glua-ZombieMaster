@@ -14,18 +14,19 @@ SWEP.UseHands                  = true
 
 SWEP.Slot                      = 2
 SWEP.HoldType                  = "melee2"
-
-SWEP.Primary.MinDamage         = GetConVar("zm_weapon_damage_sledge"):GetInt()
-SWEP.Primary.MaxDamage         = GetConVar("zm_weapon_damage_sledge"):GetInt()
+-- TODO Swap primary and secondary.
+-- The sledge had random damage: base 50, primary 55% to 110%, secondary 99% to 250%
+SWEP.Primary.MinDamage         = GetConVar("zm_weapon_damage_sledge"):GetInt() * 0.99
+SWEP.Primary.MaxDamage         = GetConVar("zm_weapon_damage_sledge"):GetInt() * 2.5
 SWEP.Primary.Force             = SWEP.Primary.Damage
-SWEP.Primary.Reach             = 85
+SWEP.Primary.Reach             = 60
 SWEP.Primary.HitSound          = Sound("physics/metal/metal_canister_impact_hard1.wav")
 SWEP.Primary.HitFleshSound     = Sound("physics/body/body_medium_break2.wav")
 SWEP.Primary.MissSound         = Sound("weapons/iceaxe/iceaxe_swing1.wav")
-SWEP.Primary.Delay             = 2.8
-
-SWEP.Secondary.MinDamage       = GetConVar("zm_weapon_damage_sledge_secondary"):GetInt()
-SWEP.Secondary.MaxDamage       = GetConVar("zm_weapon_damage_sledge_secondary"):GetInt()
+SWEP.Primary.Delay             = 2.9
+--hit at 1.5 and 1.8
+SWEP.Secondary.MinDamage       = GetConVar("zm_weapon_damage_sledge_secondary"):GetInt() * 0.55
+SWEP.Secondary.MaxDamage       = GetConVar("zm_weapon_damage_sledge_secondary"):GetInt() * 1.1
 SWEP.Secondary.HitSound        = "Weapon_Crowbar.Melee_Hit"
 SWEP.Secondary.HitFleshSound   = "Weapon_Crowbar.Melee_Hit"
 SWEP.Secondary.MissSound       = "Weapon_Crowbar.Single"

@@ -26,7 +26,7 @@ SWEP.Primary.DefaultClip       = 8
 SWEP.Primary.MinDamage         = GetConVar("zm_weapon_damage_shotgun"):GetInt()
 SWEP.Primary.MaxDamage         = GetConVar("zm_weapon_damage_shotgun"):GetInt()
 SWEP.Primary.NumShots          = 8
-SWEP.Primary.Delay             = 1.2
+SWEP.Primary.Delay             = 1.4
 
 SWEP.ReloadDelay               = 0.3
 SWEP.DoViewPunch               = true

@@ -261,7 +261,7 @@
 			"text"		"Hulk Health"
 			"help"		"How much health a Hulk will have on spawn."
 			"type"		"Numeric"
-			"default"	"175"
+			"default"	"150"
 		}
 		
 		29
@@ -324,7 +324,7 @@
 			"text"		"Fists Damage"
 			"help"		"Set the damage of fists."
 			"type"		"Numeric"
-			"default"	"10"
+			"default"	"5"
 		}
 
 		36
@@ -333,7 +333,7 @@
 			"text"		"Crowbar Damage"
 			"help"		"Set the damage of crowbars."
 			"type"		"Numeric"
-			"default"	"25"
+			"default"	"20"
 		}
 
 		37
@@ -342,19 +342,10 @@
 			"text"		"Sledge Hammer Damage"
 			"help"		"Set the damage of Sledge Hammers."
 			"type"		"Numeric"
-			"default"	"55"
+			"default"	"50"
 		}
 
 		38
-		{
-			"name"		"zm_weapon_damage_sledge_secondary"
-			"text"		"Sledge Hammer Secondary Damage"
-			"help"		"Set the damage of Sledge Hammers secondary attack."
-			"type"		"Numeric"
-			"default"	"25"
-		}
-
-		39
 		{
 			"name"		"zm_weapon_damage_pistol"
 			"text"		"Pistol Damage"
@@ -363,7 +354,7 @@
 			"default"	"16"
 		}
 
-		40
+		39
 		{
 			"name"		"zm_weapon_damage_revolver"
 			"text"		"Revolver Damage"
@@ -372,7 +363,7 @@
 			"default"	"48"
 		}
 
-		41
+		40
 		{
 			"name"		"zm_weapon_damage_shotgun"
 			"text"		"Shotgun Damage"
@@ -381,7 +372,7 @@
 			"default"	"9"
 		}
 
-		42
+		41
 		{
 			"name"		"zm_weapon_damage_rifle"
 			"text"		"Rifle Damage"
@@ -390,7 +381,7 @@
 			"default"	"90"
 		}
 
-		43
+		42
 		{
 			"name"		"zm_weapon_damage_mac10"
 			"text"		"Mac 10 Damage"
