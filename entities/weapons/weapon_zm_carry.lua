@@ -18,7 +18,7 @@ SWEP.SlotPos                   = 0
 SWEP.HoldType                  = "normal"
     
 SWEP.PuntForce                 = 3500
-SWEP.PullForce                 = 3500
+SWEP.PullForce                 = 1500
 SWEP.MaxMass                   = 300
     
 SWEP.Primary.ClipSize          = -1
@@ -48,7 +48,7 @@ function SWEP:PrimaryAttack()
         maxs = Vector(8, 8, 8),    
         mask = bit.bor(MASK_SHOT, CONTENTS_GRATE),
         filter = function(ent)
-            if not (ent:IsPlayer() or ent:IsWeapon() or ent:GetClass() == "item_zm_ammo") then return true end
+            if not (ent:IsPlayer()) then return true end
         end
     })
     local tgt = trace.Entity
@@ -95,7 +95,7 @@ function SWEP:SecondaryAttack()
         maxs = Vector(8, 8, 8),    
         mask = bit.bor(MASK_SHOT, CONTENTS_GRATE),
         filter = function(ent)
-            if not (ent:IsPlayer() or ent:IsWeapon() or ent:GetClass() == "item_zm_ammo") then return true end
+            if not (ent:IsPlayer()) then return true end
         end
     })
     local tgt = trace.Entity

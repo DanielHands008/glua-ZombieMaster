@@ -28,10 +28,10 @@ SWEP.HoldType                  = "ar2"
 
 SWEP.Primary.ClipSize          = 11
 SWEP.Primary.DefaultClip       = 11
-SWEP.Primary.MinDamage         = 55
-SWEP.Primary.MaxDamage         = 65
+SWEP.Primary.MinDamage         = 90
+SWEP.Primary.MaxDamage         = 90
 SWEP.Primary.NumShots          = 1
-SWEP.Primary.Delay             = 1.6
+SWEP.Primary.Delay             = 1.4
 SWEP.Primary.Cone              = 0
 SWEP.Primary.DamageType        = DMG_BULLET
 

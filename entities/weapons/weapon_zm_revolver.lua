@@ -27,9 +27,10 @@ SWEP.HoldType                  = "revolver"
 
 SWEP.Primary.ClipSize           = 6
 SWEP.Primary.DefaultClip        = 6
-SWEP.Primary.MinDamage          = 20
-SWEP.Primary.MaxDamage          = 30
+SWEP.Primary.MinDamage          = 48
+SWEP.Primary.MaxDamage          = 48
 SWEP.Primary.NumShots           = 1
+SWEP.Primary.Spread             = 0
 SWEP.Primary.Delay              = 1.2
 
 SWEP.Primary.Automatic          = false
@@ -38,7 +39,8 @@ SWEP.Primary.Ammo               = "revolver"
 SWEP.Secondary.Delay            = 0.3
 SWEP.Secondary.ClipSize         = 1
 SWEP.Secondary.DefaultClip      = 1
-SWEP.Secondary.Automatic        = false
+SWEP.Secondary.Spread           = 0.2
+SWEP.Secondary.Automatic        = true
 SWEP.Secondary.Ammo             = "dummy"
 
 function SWEP:Think()
@@ -75,7 +77,7 @@ function SWEP:SecondaryAttack()
     local damage = Either(self.Primary.Damage ~= nil, self.Primary.Damage, math.random(self.Primary.MinDamage or 0, self.Primary.MaxDamage or 0))
     self:ShootBullet(damage, self.Primary.NumShots, self.Primary.Cone)
     
-    self.Owner:ViewPunch(Angle(math.Rand(-8, 2), math.Rand(-2, 2), 0))
+    self.Owner:ViewPunch(Angle(math.Rand(-8, -12), math.Rand(-2, 2), 0))
     
     if not self.InfiniteAmmo then
         self:TakePrimaryAmmo(1)

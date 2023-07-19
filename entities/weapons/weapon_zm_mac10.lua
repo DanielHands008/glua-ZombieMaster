@@ -27,8 +27,8 @@ SWEP.HoldType                  = "pistol"
 
 SWEP.Primary.ClipSize          = 30
 SWEP.Primary.DefaultClip       = 30
-SWEP.Primary.MinDamage         = 8
-SWEP.Primary.MaxDamage         = 12
+SWEP.Primary.MinDamage         = 17
+SWEP.Primary.MaxDamage         = 17
 SWEP.Primary.NumShots          = 1
 SWEP.Primary.Delay             = 0.09
 

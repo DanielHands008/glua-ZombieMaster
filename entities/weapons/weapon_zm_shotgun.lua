@@ -23,10 +23,10 @@ SWEP.HoldType                  = "shotgun"
 
 SWEP.Primary.ClipSize          = 8
 SWEP.Primary.DefaultClip       = 8
-SWEP.Primary.MinDamage         = 6
-SWEP.Primary.MaxDamage         = 8
+SWEP.Primary.MinDamage         = 9
+SWEP.Primary.MaxDamage         = 9
 SWEP.Primary.NumShots          = 8
-SWEP.Primary.Delay             = 1.1
+SWEP.Primary.Delay             = 1.2
 
 SWEP.ReloadDelay               = 0.3
 SWEP.DoViewPunch               = true

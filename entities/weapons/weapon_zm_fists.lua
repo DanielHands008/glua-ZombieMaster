@@ -15,7 +15,7 @@ SWEP.SlotPos                   = 1
 SWEP.HoldType                  = "fist"
 
 SWEP.Primary.Damage            = 10
-SWEP.Primary.Force             = SWEP.Primary.Damage
+SWEP.Primary.Force             = 1
 SWEP.Primary.Reach             = 45
 SWEP.Primary.HitSound          = "Flesh.ImpactHard"
 SWEP.Primary.HitFleshSound     = "Flesh.ImpactHard"

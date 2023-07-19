@@ -25,7 +25,7 @@ SWEP.DontDrawSpare             = true
 
 SWEP.Primary.Recoil            = 0
 SWEP.Primary.Delay             = 0
-SWEP.Primary.Damage            = 0
+SWEP.Primary.Damage            = 150
 SWEP.Primary.ClipSize          = -1
 SWEP.Primary.DefaultClip       = -1
 SWEP.Primary.Reload            = 0

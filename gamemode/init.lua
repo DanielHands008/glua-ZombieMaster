@@ -133,7 +133,6 @@ function GM:SetupAmmo()
     table.Add(ammotbl, ents.FindByClass("item_box_*"))
     
     for _, ammo in pairs(ammotbl) do
-        if ammo:GetClass() == "item_ammo_revolver" then continue end
         
         local ammotype = self.AmmoClass[ammo:GetClass()]
         if ammotype then
