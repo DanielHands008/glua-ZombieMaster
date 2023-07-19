@@ -27,8 +27,8 @@ SWEP.HoldType                  = "pistol"
 
 SWEP.Primary.ClipSize          = 20
 SWEP.Primary.DefaultClip       = 20
-SWEP.Primary.MinDamage         = 16
-SWEP.Primary.MaxDamage         = 16
+SWEP.Primary.MinDamage         = GetConVar("zm_weapon_damage_pistol"):GetInt()
+SWEP.Primary.MaxDamage         = GetConVar("zm_weapon_damage_pistol"):GetInt()
 SWEP.Primary.NumShots          = 1
 SWEP.Primary.Delay             = 0.4
 

@@ -14,8 +14,8 @@ SWEP.UseHands                  = true
 SWEP.Slot                      = 2
 SWEP.HoldType                  = "melee"
 
-SWEP.Primary.MinDamage         = 15
-SWEP.Primary.MaxDamage         = 25
+SWEP.Primary.MinDamage         = GetConVar("zm_weapon_damage_improvised"):GetInt()
+SWEP.Primary.MaxDamage         = GetConVar("zm_weapon_damage_improvised"):GetInt()
 SWEP.Primary.Force             = SWEP.Primary.Damage
 SWEP.Primary.Reach             = 65
 SWEP.Primary.HitSound          = "Weapon_Crowbar.Melee_HitWorld"

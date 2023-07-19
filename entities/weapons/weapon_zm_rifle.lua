@@ -28,8 +28,8 @@ SWEP.HoldType                  = "ar2"
 
 SWEP.Primary.ClipSize          = 11
 SWEP.Primary.DefaultClip       = 11
-SWEP.Primary.MinDamage         = 90
-SWEP.Primary.MaxDamage         = 90
+SWEP.Primary.MinDamage         = GetConVar("zm_weapon_damage_rifle"):GetInt()
+SWEP.Primary.MaxDamage         = GetConVar("zm_weapon_damage_rifle"):GetInt()
 SWEP.Primary.NumShots          = 1
 SWEP.Primary.Delay             = 1.4
 SWEP.Primary.Cone              = 0

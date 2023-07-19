@@ -23,8 +23,8 @@ SWEP.HoldType                  = "shotgun"
 
 SWEP.Primary.ClipSize          = 8
 SWEP.Primary.DefaultClip       = 8
-SWEP.Primary.MinDamage         = 9
-SWEP.Primary.MaxDamage         = 9
+SWEP.Primary.MinDamage         = GetConVar("zm_weapon_damage_shotgun"):GetInt()
+SWEP.Primary.MaxDamage         = GetConVar("zm_weapon_damage_shotgun"):GetInt()
 SWEP.Primary.NumShots          = 8
 SWEP.Primary.Delay             = 1.2
 

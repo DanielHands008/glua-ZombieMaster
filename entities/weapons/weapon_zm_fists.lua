@@ -14,7 +14,7 @@ SWEP.Slot                      = 0
 SWEP.SlotPos                   = 1
 SWEP.HoldType                  = "fist"
 
-SWEP.Primary.Damage            = 10
+SWEP.Primary.Damage            = GetConVar("zm_weapon_damage_fists"):GetInt()
 SWEP.Primary.Force             = 1
 SWEP.Primary.Reach             = 45
 SWEP.Primary.HitSound          = "Flesh.ImpactHard"
